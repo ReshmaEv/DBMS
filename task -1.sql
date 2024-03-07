@@ -8,3 +8,4 @@ insert into students values(6,'radha','chemistry'),(7,'varun','maths'),(8,'anagh
 select *  from students;
 SELECT DISTINCT course from students;
 select *from students where course= 'maths';
+

@@ -28,7 +28,7 @@ select * from products where product_name = 'mug';
 
 SELECT DISTINCT category from products;
 
-select * from products where stock_quantity>0 AND price<=25;
+select * from products where stock_quantity>0 AND price<=25 ORDER BY price;
         
 		
         
